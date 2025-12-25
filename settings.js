@@ -1,4 +1,4 @@
-const fs = require('fs');
+L I ppL IL Ico = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
